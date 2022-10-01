@@ -1,9 +1,23 @@
-.header {
-    background: #1F2937;
-    height: 16px;
+body {
+    margin: 0;
 }
 
-.header .header_logo {
-    font-style: Hero
-    
+.header, .intro, .footer {
+    background: #1F2937;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.wow {
+    padding: 16px;
+    background: #E5E7EB;
+}
+
+.ad_section {
+    background: white;
+    padding: 16px;
+}
+
+.blue_box {
+    background: #3882F6;
 }
