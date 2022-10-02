@@ -1,23 +1,59 @@
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .header, .intro, .footer {
     background: #1F2937;
     padding-top: 16px;
     padding-bottom: 16px;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.header_logo {
+    flex-grow: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header_links {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.intro > span > div > p{
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.footer {
+    text-align: center;
+    color: #F9FAF8;
 }
 
 .wow {
     padding: 16px;
     background: #E5E7EB;
+    padding-left: 128px;
 }
 
 .ad_section {
     background: white;
-    padding: 16px;
+    padding: 64px;
+    padding-left: 128px;
+    padding-right: 128px;
 }
 
 .blue_box {
     background: #3882F6;
+    padding-left: 128px;
+    
 }
