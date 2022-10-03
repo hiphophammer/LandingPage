@@ -11,6 +11,28 @@ body {
     padding-right: 128px;
 }
 
+.intro {
+    display: flex;
+}
+.intro_span_1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    flex: 1;
+}
+.intro_span_2 {
+    flex: 1;
+}
+
+.intro_content {
+    color: #F9FAF8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.intro > span > img {
+    width: 100%;
+}
+
 .header {
     display: flex;
     justify-content: flex-end;
@@ -32,6 +54,20 @@ body {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.button {
+    margin-top: 16px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .footer {
@@ -39,10 +75,26 @@ body {
     color: #F9FAF8;
 }
 
+.boxes {
+    padding: 128px;
+}
+
 .wow {
     padding: 16px;
     background: #E5E7EB;
     padding-left: 128px;
+    padding-right: 128px;
+}
+
+.wow > .wow_container > .words{
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    text-align: end;
+    font-weight: 800;
 }
 
 .ad_section {
